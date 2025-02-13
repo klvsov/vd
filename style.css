@@ -51,7 +51,7 @@ body {
     background-color: #eae2b7;
     width: 270px;
     height: 170px;
-    top: 5px;
+    top: 20px;
     left: 15px;
     box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.4);
     transition: top 0.5s;
@@ -74,7 +74,8 @@ body {
     text-align: center;
     line-height: 25px;
     top: 25px;
-    left: 45px;
+    left: 50%;
+    transform: translateX(-50%);
     color: #003049;
   }
   
@@ -84,7 +85,7 @@ body {
     height: 30px;
     margin: 0 10px;
     position: relative;
-    top: 110px;
+    top: 115px;
     left: 105px;
     transform: rotate(-45deg);
     width: 30px;
