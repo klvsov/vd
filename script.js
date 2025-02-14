@@ -4,8 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const body = document.querySelector("body");
     const text = document.querySelector(".text");
 
-    console.log({text})
-
     container.addEventListener("mouseenter", () => {
         card.style.transition = "top 0.5s";
         card.style.top = "-90px";
