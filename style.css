@@ -1,3 +1,7 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -10,9 +14,7 @@ body {
     position: relative;
   }
 
-  @media (hover: hover){
-
-    
+  @media (hover: hover){   
     .container:hover .card {
       top: -90px
     }
