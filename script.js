@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     letter.addEventListener("click", (e) => {
         e.stopPropagation()
-        console.log({card:card.classList})
-        console.log({text:text.classList})
         card.classList.toggle('visible');
         text.classList.toggle('hidden');
     }, );
